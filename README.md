@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sameKindCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-same-kind-casts@deno/mod.js';
+import sameKindCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-same-kind-casts@v0.3.0-deno/mod.js';
 ```
 
 #### sameKindCasts( \[dtype] )
@@ -106,7 +106,7 @@ var out = sameKindCasts( 'foo' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import sameKindCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-same-kind-casts@deno/mod.js';
+import sameKindCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-same-kind-casts@v0.3.0-deno/mod.js';
 
 // Get the list of supported array data types:
 var DTYPES = dtypes();
